@@ -1,0 +1,200 @@
+
+
+.white-mode .auth-cont{
+  backdrop-filter: blur(5px);
+  background-color: rgba(255, 192, 203, 0.5);
+  color: black;
+  border: 2px solid rgb(247, 152, 168);
+  box-shadow: 0 0 10px rgb(243, 3, 43);
+}
+
+.white-mode .reg-login-msg{
+  color: rgb(101, 1, 101)
+}
+
+.white-mode .details-input{
+  background-color: white;
+  color: black;
+  border: 1px solid rgb(57, 56, 56);
+}
+
+.white-mode .details-input:focus{
+  outline: 2px solid black;
+}
+
+.white-mode .short-msg{
+  color: red;
+}
+
+.white-mode .login-reg-btn{
+  color: black;
+  background-color: pink;
+}
+
+.white-mode .fa-circle-xmark{
+  color: rgb(137, 4, 4);
+}
+
+.white-mode .fa-circle-check{
+ color: rgb(2, 75, 2);
+}
+
+.white-mode .error-msg{
+  background-color: rgb(250, 171, 184);
+  color: rgb(108, 5, 5);
+}
+
+
+.auth-cont{
+  width: 400px;
+  height:fit-content;
+  color: white;
+  position:fixed;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap:15px;
+  box-sizing: border-box;
+  padding:20px;
+  box-shadow: 0 0 25px rgba(0,0,0, 0.8);
+  backdrop-filter: blur(5px);
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 2px solid purple;
+  font-family: Cinzel Decorative;
+  
+ 
+}
+
+ 
+.details-cont{
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+}
+
+.name-input, .email-input, .pwd-input{
+  width: 300px;
+  height: 35px;
+  box-sizing: border-box;
+  background-color: black;
+  color: white;
+  border: 2px solid purple;
+  padding-left: 10px;
+ }
+
+ .name-input:focus, .email-input:focus, .pwd-input:focus{
+  outline: 2px solid rgb(198, 4, 198);
+  
+ }
+
+ .name-input::placeholder, .email-input::placeholder, .pwd-input::placeholder{
+  font-size: 12px;
+  padding: 10px;
+  color: rgb(158, 114, 158);
+ }
+
+ 
+.login, .register{
+  color: rgb(240, 190, 240);
+  cursor: pointer;
+  font-family: Macondo;
+  
+}
+
+.login-user, .register-user{
+  color: white;
+  background-color: black;
+  border: 2px solid rgb(82, 1, 82);
+  font-size: 14px;
+  padding: 12px 25px;
+  border-radius: 55px;
+  cursor: pointer;
+  font-family: Macondo;
+
+}
+
+.guest-btn{
+  color: white;
+  background-color: black;
+  border: 2px solid rgb(82, 1, 82);
+  font-size: 12px;
+  padding: 12px 40px;
+  border-radius: 55px;
+  cursor: pointer;
+  font-family: Macondo;
+}
+
+.error-msg-cont{
+  width: 300px;
+  height: fit-content;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(242, 188, 242);
+  font-size: 14px;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-right: 40px;
+  
+}
+
+
+.text-check-cont{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+ /* background-color: aqua;*/
+  width: 330px;
+  box-sizing: border-box;
+  
+}
+
+.password-eye-cont{
+  position: relative;
+}
+
+.fa-eye, .fa-eye-slash{
+  position: absolute;
+  right: 40px;
+  color: black;
+}
+
+.fa-circle-check{
+  display: none;
+  color: rgb(6, 173, 6);
+
+}
+
+.fa-circle-xmark{
+  display: none;
+  color: rgb(244, 66, 66);
+}
+
+.password-msg, .name-msg{
+  display: none;
+  font-size: 14px;
+  color: rgb(247, 80, 80);
+  font-family: Macondo;
+}
+
+.fa-rectangle-xmark{
+  position: absolute;
+  top:10px;
+  right: 10px;
+  cursor: pointer;
+ }
+
+ 
+ /*
+ select:option decor.
+ product amount:option select decor
+ image on product page
+ font
+ fontsieze of buttons, text
+ */

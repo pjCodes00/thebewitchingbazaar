@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=IM+Fell+English+SC&family=Macondo&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mystery+Quest&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=UnifrakturCook:wght@700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=IM+Fell+English+SC&family=Macondo&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mystery+Quest&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=UnifrakturCook:wght@700&display=swap" rel="stylesheet">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=IM+Fell+English+SC&family=Macondo&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mystery+Quest&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=UnifrakturCook:wght@700&display=swap" rel="stylesheet">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=IM+Fell+English+SC&family=Macondo&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mystery+Quest&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=UnifrakturCook:wght@700&display=swap" rel="stylesheet">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Macondo&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mystery+Quest&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=UnifrakturCook:wght@700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/80ccbcef3b.js" crossorigin="anonymous"></script>
+   
+       <link rel="stylesheet" href="./style/common/common.css">
+       <link rel="stylesheet" href="./style/common/tutorial.css">
+        <link rel="stylesheet" href="./style/checkout.css">
+  </head>
+  <body>
+    <div class="header">
+      <div class="left-section">
+        <img src="./images/witch-hat.png" class="witch-hat">
+        <p>The witchy shop</p>
+      </div>
+      <div class="right-section">
+        <div class="tutorial-cont">
+          <i class="fa-solid fa-file-video"></i>
+          <div class="tooltip">Watch tutorial</div>
+        </div>
+        <button onclick="window.location.href='/index'" class="home header-btn dark-btn">Home</button>
+        <button onclick="window.location.href='/game/game'"  class="header-btn dark-btn">Cast a spell</button>
+        <p class="user-name"></p>
+        <button class="login-btn logout-btn header-btn dark-btn" onclick="window.location.href='/index'">Logout</button>
+      </div>
+     </div>
+
+     <div class="header2">
+      <div class="header-btn-cont">
+        <button onclick="window.location.href='/shop/products'" class="header-btn dark-btn">Products</button>
+        <button onclick="window.location.href='/shop/cart'" class="header-btn dark-btn">Cart</button>
+        <button onclick="window.location.href='/shop/orders'" class="auth header-btn dark-btn">Orders</button>
+        <button onclick="window.location.href='/shop/checkout'" class="auth header-btn dark-btn">Checkout</button>
+      </div>
+
+      <i class="fa-solid fa-sun dark-text"></i>
+      
+
+      <div>
+        <i class="fa-solid fa-cart-shopping dark-text" onclick="window.location.href='/shop/cart'"></i>
+        <div class="cart-quantity"></div>
+      </div>
+     </div>
+
+     <div class="header3">
+     Place your order
+     </div>
+
+     <div class="details-container">
+      <div>Shiping information</div>
+      <div class="error-msg"></div>
+      <div class="name-cont">
+        <p>First name</p>
+        <input type="text" placeholder="First name" class="name details-input">
+      </div>
+      <div class="address-cont">
+        <p>Address</p>
+        <input type="text" placeholder="Address" class="address details-input">
+      </div>
+      <div class="order-btn-cont">
+        <button class="order order-btn dark-btn">Place your order</button>
+      </div>
+     </div>
+
+     <div class="payment-container"></div>
+
+    <div class="modal">
+      <div class="modal-content">
+        <span class="close-btn">&times;</span>
+        <video class="tutorial-video" controls>
+          <source src="./videos/thewitchyshop.mp4" type="video/mp4">    
+        </video>
+        <video></video>
+      </div>
+    </div>
+
+   <script type="module" src="./scripts/checkout.js"></script>
+   <script type="module" src="./scripts/common/tutorial.js"></script>
+  </body>
+</html>

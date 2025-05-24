@@ -1,0 +1,328 @@
+ 
+
+      p{
+        margin:0;
+      }
+
+      body {
+        background-image: url(../images/purple-black-bg.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        color: white;
+        
+      }
+
+      
+      .white-mode{
+        color: black;
+        background-image: url(../images/white-pink-bg.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+      }
+
+    
+      .white-mode .header-btn{
+        background-color: rgb(244, 186, 193);
+        color: black;
+        border: 2px solid black;
+        
+      }
+
+      .white-mode .welcome-cont{
+        background-color: rgba(248, 201, 208, 0.427);
+      }
+
+      .white-mode .create-acc-btn{
+        color: black;
+        background-color: rgb(251, 173, 182);
+        border: 2px solid black;
+  
+      }
+
+      .white-mode .back-home-btn{
+        color: black;
+        background-color: rgb(253, 192, 200);
+        border: 2px solid black;
+  
+      }
+
+      .white-mode .about-section{
+        background-image: url(../images/white-pink-bg.jpg);
+        color: black;
+      }
+
+      @media (max-width: 768px) {
+        body {
+    padding-top: 200px; 
+  }
+
+  .header {
+    flex-direction: column;
+    height: auto;
+    padding: 10px 0;
+  }
+  .top-section {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .welcome-cont{
+    margin-top: 50px;
+   
+    
+  }
+
+  .welcome-cont,
+  .image-cont {
+    margin: 0;
+    width: 90%;
+  }
+
+  .image-cont {
+    height: auto;
+  }
+
+  .crystal-ball {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .left-section {
+    width: auto;
+    margin-left: 10px;
+  }
+
+  .right-section {
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin: 10px;
+  }
+
+  .header {
+    flex-direction: column;
+    height: auto;
+    padding: 10px 0;
+  }
+
+  .candle-image {
+    width: 20%;
+  }
+
+  .about-shop {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .witchy-title {
+    font-size: 24px;
+  }
+
+  .header-btn,
+  .create-acc-btn,
+  .back-home-btn {
+    padding: 10px 20px;
+    font-size: 12px;
+  }
+}
+
+     
+
+      .header{
+        position: fixed;
+        top:0;
+        left:0;
+        right:0;
+        height: 70px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 2;
+        background-color: rgba(0, 0, 0, 0.468);
+
+      }
+
+      .right-section{
+        display: flex;
+        gap:25px;
+        margin-right: 25px;
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+        font-family: Mystery Quest;
+        
+      }
+
+      .left-section{
+        margin-left: 25px;
+        display:flex;
+        align-items: center;
+        width: 550px;
+        height: 50px;
+        font-family: Mystery Quest;
+      }
+
+      .witch-hat{
+        height: 100%;
+        width: 10%;
+        object-fit: contain;
+      }
+
+       
+      .top-section{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        box-sizing: border-box;
+        margin-bottom: 40px;
+      
+      }
+
+      .welcome-cont{
+        width: 400px;
+        height: 300px;
+       background-color: rgba(0, 0, 0, 0.317);
+        margin-left: 90px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        box-sizing: border-box;
+        gap: 30px;
+        border-radius: 50px;
+        font-family: UnifrakturCook;
+        /*border: 2px solid rgb(98, 1, 98);*/
+        box-shadow: 0 0 10px rgb(225, 2, 225);
+        
+      }
+
+      .image-cont{
+        width: 400px;
+        height: 480px;
+        margin-right: 160px;
+        margin-left: 160px;
+        margin-top: 80px;
+      
+      }
+
+      .crystal-ball{
+        width: 100%;
+        height: auto;
+        animation: floatAndPulse 4s ease-in-out infinite, glow 4s ease-in-out infinite, pulse 4s ease-in-out infinite;
+        margin-top: 10px;
+      
+      }
+
+      @keyframes floatAndPulse{
+         0%, 100% {transform: translateY(0px) scale(1);}
+         50% {transform: translateY(-20px) scale(1.05);}
+      }
+      @keyframes glow {
+          0%, 100% {
+            filter: drop-shadow(0 0 12px rgba(138, 43, 226, 0.4)) drop-shadow(0 0 20px rgba(255, 255, 255, 0.2));
+          }
+          50% {
+            filter: drop-shadow(0 0 25px rgba(255, 0, 255, 0.6)) drop-shadow(0 0 30px rgba(255, 255, 255, 0.3));
+          }
+        }
+
+  
+      .header-btn{
+        color: white;
+        background-color: black;
+        border: 2px solid  rgb(192, 169, 192);
+        font-size: 14px;
+       padding: 12px 25px;
+        border-radius: 55px;
+        cursor: pointer;
+        font-family: Macondo;
+      }
+
+      .back-home-btn{
+        color: white;
+        background-color: rgb(72, 2, 72);
+        border: 2px solid rgb(192, 169, 192);
+        font-size: 14px;
+        padding: 12px 25px;
+        border-radius: 55px;
+        cursor: pointer;
+      }
+
+      .create-acc-btn{
+        color: white;
+        background-color: rgb(72, 2, 72);
+        border: 2px solid rgb(192, 169, 192);
+        font-size: 14px;
+        padding: 10px 20px;
+        border-radius: 50px;
+        cursor: pointer;
+        font-family: Macondo;
+      }
+
+   
+
+      html{
+        scroll-behavior: smooth;
+      }
+
+      .about-section{
+        padding: 20px 20px 20px 20px; 
+        scroll-margin-top: 2px;
+        color: white;
+        border-top: 2px solid rgb(62, 1, 62);
+        
+       
+        
+      }
+
+      
+
+      .about-shop{
+        font-size: 20px;
+        line-height: 30px;
+        width: 100%;
+        margin-bottom: 20px;
+        font-family: Mystery Quest;
+      }
+
+      .back-home-btn{
+        display: block;
+        margin: 30px auto 0 auto;
+        font-family: Macondo;
+      }
+
+      .image-title-cont{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        height: 150px;
+      }
+
+      .candle-image{
+        width: 10%;
+        height: 100%;
+        object-fit: contain;
+      }
+
+      .witchy-title{
+        font-size: 30px;
+        font-family: UnifrakturCook;
+        display: block;
+       
+      }
+
+      .fa-sun, .fa-moon{
+        cursor: pointer;
+      }
+
+      .fa-eye, .fa-eye-slash{
+        color: white;
+        cursor: pointer
+      }
+   
+   

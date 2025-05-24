@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=IM+Fell+English+SC&family=Macondo&family=MedievalSharp&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mystery+Quest&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=UnifrakturCook:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=IM+Fell+English+SC&family=Macondo&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mystery+Quest&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=UnifrakturCook:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=IM+Fell+English+SC&family=Macondo&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mystery+Quest&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=UnifrakturCook:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=IM+Fell+English+SC&family=Macondo&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mystery+Quest&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=UnifrakturCook:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Macondo&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mystery+Quest&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=UnifrakturCook:wght@700&display=swap" rel="stylesheet">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/80ccbcef3b.js" crossorigin="anonymous"></script>
+    
+     <link rel="stylesheet" href="./style/common/auth.css">
+     <link rel="stylesheet" href="./style/common/common.css">
+     <link rel="stylesheet" href="./style/common/tutorial.css">
+     <link rel="stylesheet" href="./style/products.css">
+    
+  </head>
+  <body>
+    <div class="header">
+      <div class="left-section">
+        <img src="./images/witch-hat.png" class="witch-hat">
+        <p>The witchy shop</p>   
+      </div>
+      <div class="right-section">
+         <div class="tutorial-cont">
+          <i class="fa-solid fa-file-video"></i>
+          <div class="tooltip">Watch tutorial</div>
+        </div>
+
+        <button onclick="window.location.href='/index'"  class="home header-btn dark-btn">Home</button>
+        <button onclick="window.location.href='/game/game'" class="header-btn dark-btn">Cast a spell</button>
+        <p class="user-name auth"></p>
+        <button class="login-btn logout-btn auth header-btn dark-btn" onclick="window.location.href='/index'">Logout</button>
+      </div>
+     </div>
+ 
+     <div class="header2">  
+      
+     <div class="sidebar-toggle">
+      <i class="fa-solid fa-toggle-on dark-text"></i>
+     </div>
+
+      <div class="header-btn-cont">
+        <button onclick="window.location.href='/shop/products'" class="header-btn dark-btn">Products</button>
+        <button onclick="window.location.href='/shop/cart'" class="auth header-btn dark-btn">Cart</button>
+        <button onclick="window.location.href='/shop/orders'" class="auth header-btn dark-btn">Orders</button>
+        <button onclick="window.location.href='/shop/checkout'" class="auth header-btn dark-btn">Checkout</button>
+      </div>
+     
+     
+    
+      <div class="sun-cart-cont">
+        <i class="fa-solid fa-sun dark-text"></i>
+        <i class="fa-solid fa-cart-shopping auth dark-text" onclick="window.location.href='/shop/cart'"></i>
+        <div class="cart-quantity auth"></div>
+      </div>
+     </div>
+
+
+     <div class="sidebar"> 
+      <button class="search-btn sidebar-btn dark-btn">Search</button>
+      <button class="reset-btn sidebar-btn dark-btn">Reset</button>
+      <div class="search-cont sidebar-input-cont">
+        <p>Search Product</p>
+        <input type="text" placeholder="Search product" class="search-name sidebar-input">
+      </div>
+      <div class="category-cont sidebar-input-cont ">
+        <p>Select category</p>
+        <select class="select-category sidebar-input sidebar-select">
+          <option value="All">All</option>
+          <option value="Wealth">Wealth</option>
+          <option value="Love">Love</option>
+          <option value="Power">Power</option>
+          <option value="Shadow %26 hex">Shadow & hex</option>
+          <option value="Beauty">Beauty</option>
+          <option value="Protection">Protection</option>
+        </select>
+      </div>
+      <div class="company-cont sidebar-input-cont">
+        <p>Select company</p>
+        <select class="select-company sidebar-input sidebar-select">
+          <option value="All">All</option>
+          <option value="The Witch%26%2339;s Grimoire">The Witch's Grimoire</option>
+          <option value="Spellbound Treasures">Spellbound Treasures</option>
+          <option value="Lunar Alchemy">Lunar Alchemy</option>
+          <option value="The Enchanted Cauldron">The Enchanted Cauldron</option>
+          <option value="Hex %26 Harmony">Hex & Harmony</option>
+        </select>
+      </div>
+      <div class="sort-cont sidebar-input-cont">
+        <p>Sort by</p>
+        <select class="select-sort sidebar-input sidebar-select">
+          <option value="All">All</option>
+          <option value="a-z">a-z</option>
+          <option value="z-a">z-a</option>
+          <option value="High">High</option>
+          <option value="Low">Low</option>
+        </select>
+      </div>
+      <div class="price-cont sidebar-input-cont"></div>
+      <div class="shipping-cont sidebar-input-cont">
+        <p>Free shipping</p>
+        <input type="checkbox" class="shipping sidebar-checkbox">
+      </div>
+      <div class="featured-cont sidebar-input-cont">
+        <p>Featured</p>
+        <input type="checkbox" class="featured sidebar-checkbox">
+      </div>
+      <div class="rating-cont-main sidebar-input-cont"></div>
+
+
+     </div>
+
+     <div class="grid-container"></div>
+
+     <div class="prod-tooltip">Click for more info!</div>
+
+     <div class="page-container">
+      <button class="back-btn back-next-btn dark-btn">Back</button>
+      <button class="page-btn1 page-btn dark-btn">1</button>
+      <button class="page-btn2 page-btn dark-btn">2</button>
+      <button class="page-btn3 page-btn dark-btn">3</button>
+      <button class="next-btn back-next-btn dark-btn">Next</button>
+     </div>
+
+      <div class="modal">
+        <div class="modal-content">
+          <span class="close-btn">&times;</span>
+          <video class="tutorial-video" controls>
+            <source src="./videos/thewitchyshop.mp4" type="video/mp4">    
+          </video>
+        </div>
+      </div>
+   
+
+  <script type="module" src="./scripts/products.js"></script>
+  <script type="module" src="./scripts/common/tutorial.js"></script>
+  </body>
+</html>

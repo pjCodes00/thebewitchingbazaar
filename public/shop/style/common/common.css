@@ -1,0 +1,57 @@
+body{
+  font-weight: bold;
+}
+
+button{
+  font-weight: bold;
+
+}
+.dark-btn:hover{
+  background-color: #85229b;
+  color: white;
+  box-shadow:  0 0 8px #9370DB;
+  transition: all 0.2s ease-in-out;
+  animation: float 3s ease-in-out infinite;
+ }
+
+ @keyframes float{
+  0%, 100% {transform: translateY(0px) scale(1);}
+  50% {transform: translatey(-5px) scale(1.02);}
+ }
+
+ .white-mode .dark-btn:hover{
+  background-color: pink;
+  color: black;
+  box-shadow: 0 0 8px rgb(240, 80, 107);
+  transition: all 0.2s ease-in-out;
+ }
+
+ .dark-text:hover{
+  color: rgb(241, 177, 241);
+  text-shadow: 0 0 15px rgb(244, 15, 244);
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  
+ }
+
+ .white-mode .dark-text:hover{
+  color: white;
+  text-shadow: 0 0 15px rgb(244, 15, 244);
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+ }
+
+     .no-product-msg{
+        background-color: black;
+        color: white;
+        margin-left: 100px;
+        margin-top: 100px;
+        width: 500px;
+        height: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 50px;
+        border: 2px solid purple;
+        font-family: IM Fell English SC;
+      }

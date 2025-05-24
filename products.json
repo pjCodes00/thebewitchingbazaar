@@ -1,0 +1,258 @@
+ [{
+"name":"Rose Quartz Whisper – A charm to attract true love.",
+ "price": 100,
+ "category": "Love",
+"company": "The Witch&#39;s Grimoire",
+ "featured": true,
+ "description": " A charm imbued with the essence of love, crafted to draw true romance and deepen emotional connections. Infused with the energy of rose quartz, this charm promotes self-love, healing, and harmony in relationships. Carry it close or place it under your pillow to attract loving vibrations. Whether seeking a soulmate or strengthening existing bonds, this spell-infused charm enhances affection. Perfect for those longing for meaningful and heartfelt connections. Enchanted under a full moon for maximum potency.",
+  "rating": 4,
+  "image": "/shop/images/products/rosequartzwhisper.jpg"
+  
+
+  
+}, {
+"name":"Warden’s Warding – A spell jar for spiritual protection.",
+ "price": 150,
+ "category": "Protection",
+"company": "Spellbound Treasures",
+ "description": "This powerful spell jar is a guardian against negative energies and spiritual disturbances. Filled with sacred herbs, black salt, and protective sigils, it acts as a barrier against hexes, curses, and ill intentions. Keep it by your doorstep or bedside for continuous shielding. Ideal for witches and mystics who seek energetic security in their home or personal space. Each jar is ritually charged to fortify your aura and protect against malevolent forces.",
+  "rating": 3.5,
+    "image": "/shop/images/products/wardenswarding.jpg"
+  
+}, {
+"name":"Gilded Fortune Ritual – A prosperity spell with gold flakes",
+ "price": 60,
+ "category": "Wealth",
+"company": "Lunar Alchemy",
+ "shipping": true,
+ "description": " A golden prosperity spell infused with real gold flakes to draw abundance and success. This spell harnesses the power of wealth-attracting herbs, lucky symbols, and celestial timing to enhance financial stability. Perform the ritual during a waxing moon for amplified results. Whether seeking career advancement, business growth, or unexpected financial luck, this ritual opens doors to endless possibilities. Let the golden glow of prosperity guide you to fortune.",
+   "image": "/shop/images/products/gildedfortuneritual.jpg"
+  
+}, {
+"name":"Lunar Rebirth Elixir – A potion to refresh the spirit.",
+ "price": 300,
+ "category": "Beauty",
+"company": "The Enchanted Cauldron",
+ "description": "– A mystical potion designed to cleanse your spirit and rejuvenate your energy. Crafted with moon-charged water, healing herbs, and a touch of lunar magic, this elixir refreshes the mind and soul. Ideal for those undergoing spiritual transitions, emotional healing, or personal reinvention. Drink under the full moon to amplify its transformative effects. Let the soothing essence of this potion guide you to renewal and self-discovery.",
+  "image": "/shop/images/products/lunarrebirthelixir.jpg"
+  
+ 
+}, {
+"name":"Raven’s Omen Ink – A spell for prophetic dreams.",
+ "price": 95,
+ "category": "Power",
+"company": "The Witch&#39;s Grimoire",
+ "shipping": true,
+  "description": "A spell-infused ink that unveils hidden truths and enhances prophetic visions. Used in sigil work, divination, or spellcraft, this enchanted ink allows witches to communicate with the unseen. Write your desires, dreams, or spells with this magical ink to enhance their potency. Infused with herbs and lunar energy, it deepens intuition and spiritual insight. Ideal for those who seek guidance from the spirit realm.",
+   "rating": 5,
+  "image": "/shop/images/products/ravensomenink.jpg" 
+ 
+  
+}, {
+"name":"Celestial Weaver’s Knot – A spell to weave fate in your favor.",
+ "price": 230,
+ "category": "Power",
+"company": "The Witch&#39;s Grimoire",
+ "description": "A potent spell crafted to weave fate in your favor, guiding destiny with precision. This enchanted knot is tied under cosmic alignments to manifest desires, alter luck, and create opportunities. Keep it in your sacred space or carry it as a talisman to bend fate to your will. Perfect for witches who seek control over their paths and outcomes. The universe listens when the Celestial Weaver’s Knot is invoked.",
+  "rating": 5,
+"image": "/shop/images/products/celestialweaversknot.jpg"
+  
+  
+}, {
+"name":"Midnight Hexbreaker – A potion to undo ill-willed magic.",
+ "price": 380,
+ "category": "Shadow & hex",
+"company": "Hex & Harmony",
+ "description": " A powerful potion designed to dissolve curses and negative energy. Crafted with protective herbs, enchanted salts, and lunar blessings, this elixir breaks malevolent spells and restores balance. Drink it or use it in ritual baths to cleanse your aura and dispel dark forces. Ideal for those who suspect they are under a hex or want to ensure spiritual safety.",
+  "rating": 4,
+  "image": "/shop/images/products/midnighthexbreaker.jpg"
+
+  
+}, {
+"name":"Hex your Ex- put a curse on your ex",
+ "price": 780,
+ "category": "Shadow & hex",
+"company": "Hex & Harmony",
+ "shipping": true,
+ "featured": true,
+ "description": " A wickedly crafted curse for those who seek justice or revenge. This potent hex is designed to return negative energy to its source, ensuring karmic retribution. Infused with powerful herbs, black candles, and ancient incantations, this spell works best when performed with strong intent. Perfect for those looking to sever toxic ties with an ex who has wronged them.",
+  "rating": 5,
+  "image": "/shop/images/products/hexyourex.jpg"
+
+}, {
+"name":"Venus love – A love potion for attraction.",
+ "price": 430,
+ "category": "Love",
+"company": "Hex & Harmony",
+ "description": " A love potion infused with Venusian magic to attract romance, passion, and devotion. Crafted from rose petals, honey, and enchanted moonwater, this elixir enhances charm and magnetism. Drink it before a date or use it in spellwork to call in love. Whether you seek a soulmate or a passionate affair, Venus Love awakens irresistible attraction.",
+  "rating": 4,
+  "image": "/shop/images/products/venuslove.jpg"
+ 
+}, {
+"name":"Lover’s Beacon – Draws love and passion into your life.",
+ "price": 55,
+ "category": "Love",
+"company": "The Witch&#39;s Grimoire",
+ "shipping": true,
+ "description": " A candle spell designed to radiate love and passion, drawing soulmates closer together. Infused with romantic oils and herbs, this candle emits an aura of desire and affection. Burn it during love rituals or meditations to amplify attraction and deepen emotional connections. Crafted under a waxing moon, it enhances your romantic energy and helps manifest true love.",
+ "colors":["red", "green"],
+  "rating": 4.5,
+  "image": "/shop/images/products/loversbeacon.jpg"
+
+ 
+}, {
+"name":"Witch’s Blessing Kit – For home cleansing and protection.",
+ "price": 1000,
+ "category": "Protection",
+"company": "Spellbound Treasures",
+ "description": " A complete ritual set for home cleansing and protection. This kit includes a handcrafted spell candle, enchanted herbs, protective crystals, and a cleansing ritual guide. Designed to remove negativity and invite harmony, it’s ideal for new homes, sacred spaces, or personal protection. Use it during full moon rituals to amplify spiritual security and create a sanctuary of peace.",
+ "colors":["red", "purple", "green"],
+  "rating": 4.5,
+  "image": "/shop/images/products/witchsblessingkit.jpg"
+
+  
+}, {
+"name":"Serpent’s Fortune – A lucky charm for business success.",
+ "price": 230,
+ "category": "Wealth",
+"company": "Lunar Alchemy",
+ "shipping": true,
+ "featured": true,
+ "description": " A lucky charm enchanted to bring success in business and financial ventures. Crafted with prosperity-charged stones and sacred symbols, it enhances strategic thinking and attracts wealth. Carry it in your wallet or workspace to ensure financial luck and steady income flow. Perfect for entrepreneurs and career-driven witches.",
+  "rating": 4.5,
+ "colors":["blue", "green", "red"],
+ "image": "/shop/images/products/serpentsfortune.jpg"
+
+}, {
+"name":"Fortune’s Flow – A golden herbal potion for prosperity.",
+ "price": 120,
+ "category": "Wealth",
+"company": "The Enchanted Cauldron",
+ "description": " A golden herbal potion that unlocks abundance and prosperity. Brewed with cinnamon, bay leaves, and money-drawing herbs, this elixir increases financial opportunities and wealth energy. Drink before business meetings or important financial decisions to maximize success. Crafted under Jupiter’s influence for ultimate fortune.",
+  "rating": 5,
+  "image": "/shop/images/products/fortunesflow.jpg"
+ 
+}, {
+"name":"Shadowflame Ward – Burns away negative energy.",
+ "price": 67,
+ "category": "Protection",
+"company": "Lunar Alchemy",
+ "shipping": true,
+ "description": "A spell candle infused with protective energies to burn away negative forces. Made with enchanted black wax and sacred herbs, it repels bad luck, spirits, and hexes. Burn it during protection rituals to cleanse your space and fortify your energy field. Ideal for witches who seek strong spiritual defense.",
+  "rating": 3.5,
+  "image": "/shop/images/products/shadowflameward.jpg"
+
+}, {
+"name":"Elixir of Eternal Bloom – A potion to enhance inner and outer beauty.",
+ "price": 240,
+ "category": "Beauty",
+"company": "The Enchanted Cauldron",
+ "shipping": true,
+ "description": "A beauty potion that enhances inner and outer radiance. Infused with rose petals, chamomile, and enchanted waters, this elixir promotes youthfulness, self-love, and confidence. Drink it as part of a daily beauty ritual or add a few drops to bathwater for a glowing aura. Crafted to align with Venus’ energies, ensuring divine allure.",
+ "image": "/shop/images/products/elixirofeternalbloom.jpg"
+  
+  
+}, {
+"name":"Venus’ Radiance – A rose-infused drink for charm and attraction.",
+ "price": 420,
+ "category": "Beauty",
+"company": "Spellbound Treasures",
+ "description": "A rose-infused elixir crafted under the loving gaze of Venus, designed to amplify charm, elegance, and beauty. This potion enhances natural magnetism, making you irresistibly radiant in the eyes of others. With each sip, you’ll feel an aura of grace envelop you, promoting confidence and self-love. Infused with honey and moon-charged water, it nurtures inner beauty while illuminating outer allure. Ideal for witches seeking a boost in attraction, whether for love, admiration, or self-empowerment. Drink under a crescent moon for best results, and let Venus’ divine essence embrace you.",
+  "rating": 4.5,
+  "image": "/shop/images/products/venusradiance.jpg"
+
+}, {
+"name":"Fortune’s Favor – A prosperity ritual for financial luck.",
+ "price": 180,
+ "category": "Wealth",
+"company": "Lunar Alchemy",
+ "shipping": true,
+ "featured": true,
+ "description": "A sacred ritual designed to unlock streams of wealth, prosperity, and good fortune. This spell kit contains enchanted coins, herbs of abundance, and candles infused with luck-attracting energies. Perform this ritual under a waxing moon to align with the forces of growth and expansion. Whether you seek a financial breakthrough, a business boost, or unexpected windfalls, Fortune’s Favor clears the path for success. Crafted to work with your intentions, this ritual invites prosperity to flow effortlessly into your life. Keep a charm from the kit with you as a talisman for continued blessings.",
+  "rating": 4,
+  "image": "/shop/images/products/fortunesfavor.jpg"
+
+}, {
+"name":"Goddess Glow – A candle to enhance confidence and magnetism.",
+ "price": 367,
+ "category": "Beauty",
+"company": "Spellbound Treasures",
+ "shipping": true,
+ "description": "A radiant spell candle imbued with the power of the sun, crafted to enhance confidence, beauty, and divine energy. Infused with sun-charged herbs, golden mica, and celestial blessings, this candle glows with potent magic. Burn it during self-love rituals to awaken your inner goddess, magnify your self-worth, and step into your true power. Ideal for beauty spells, personal empowerment, and attracting admiration. As the flame flickers, visualize yourself bathed in golden light, embracing the enchanting presence of a divine being. Use this candle regularly to radiate confidence and allure effortlessly.",
+  "rating": 3,
+ "colors":["gold", "silver"],
+ "image": "/shop/images/products/goddessglow.jpg"
+
+}, {
+"name":"Shadowveil Banishing – A ritual to remove curses and ill will.",
+ "price": 875,
+ "category": "Protection",
+"company": "Hex & Harmony",
+ "description": "A potent ritual spell crafted to remove curses, break hexes, and shield against malevolent forces. This banishing spell harnesses the power of sacred herbs, protective sigils, and lunar energy to cleanse your aura and space. Whether you’ve been plagued by bad luck, ill intentions, or dark energies, this spell works as a powerful reset. Perform the ritual during the waning moon for amplified cleansing, and watch as negativity dissolves into the void. Ideal for witches facing spiritual distress, psychic attacks, or energy imbalances. Let the Shadowveil Banishing spell cloak you in safety and peace.",
+  "rating": 4.5,
+  "image": "/shop/images/products/shadowveilbanishing.jpg"
+ 
+}, {
+"name":"Phoenix’s Rise – A transformation spell for reclaiming lost power.",
+ "price": 980,
+ "category": "Power",
+"company": "The Witch&#39;s Grimoire",
+ "description": "A spell of renewal and transformation, designed to help you rise from the ashes stronger than before. This ritual empowers personal strength, resilience, and rebirth, making it perfect for those overcoming hardships or seeking a fresh start. Infused with fire-charged herbs, enchanted ashes, and lunar blessings, it awakens the spirit of the mythical phoenix within you. Perform under a new moon to release past burdens and embrace new beginnings. Whether you’re rebuilding after heartbreak, reclaiming lost power, or stepping into your destiny, this spell ignites an unbreakable fire within your soul.",
+  "rating": 4,
+  "image": "/shop/images/products/phoenixsrise.png"
+ 
+ 
+}, {
+"name":"Moonlit Devotion – A ritual to strengthen a loving bond.",
+ "price": 99,
+ "category": "Love",
+"company": "The Enchanted Cauldron",
+ "shipping": true,
+ "description": "A spell ritual crafted to deepen romantic connections and strengthen love bonds under the mystical glow of the moon. Infused with moon-charged herbs, enchanted sigils, and the essence of devotion, this spell amplifies love, passion, and loyalty. Ideal for couples seeking to enhance their emotional connection or for witches manifesting true love. Perform during a full moon for maximum potency, allowing lunar energy to weave an unbreakable thread between hearts. As the candle burns, whisper your desires and feel love’s magic wrap around you like a celestial embrace.",
+  "rating": 4.5,
+  "image": "/shop/images/products/moonlitdevotion.png"
+
+
+}, {
+"name":"Serpent’s Venom Hex – A spell to expose lies and deception.",
+ "price": 1500,
+ "category": "Shadow & hex",
+"company": "Hex & Harmony",
+"featured": true,
+ "description": "A spell crafted to expose deceit, uncover hidden truths, and ensure justice is served. This potent hex unravels lies and manipulations, bringing those who have wronged you into the light of truth. Infused with venomous herbs, cursed ink, and shadow magic, it works best when cast with strong intent. Whether seeking retribution or justice, this spell ensures that deceitful individuals face the consequences of their actions. Use with caution, as karmic energy is always in motion—this hex only delivers what is deserved. Let the serpent strike when the time is right.",
+  "rating": 4.5,
+  "image": "/shop/images/products/serpentsvenomhex.png"
+
+ 
+}, {
+"name":"Fortune’s Favor – A prosperity ritual for financial abundance.",
+ "price": 650,
+ "category": "Wealth",
+"company": "The Enchanted Cauldron",
+ "description": "An upgraded wealth ritual that magnifies financial luck, career growth, and abundance. This deluxe version includes rare prosperity herbs, golden charms, an exclusive incantation guide, and a handcrafted sigil designed to unlock limitless financial potential. Crafted under Jupiter’s influence, it aligns with cosmic abundance to attract opportunities, windfalls, and success. Ideal for business owners, entrepreneurs, and witches seeking powerful wealth manifestation. Perform this ritual during a Thursday night under a waxing moon for the strongest results, and let the golden flow of prosperity find its way to you.",
+  "rating": 3.5,
+  "image": "/shop/images/products/fortunesfavor.png"
+  
+}, {
+"name":"Stormcaller’s Command – A spell to enhance personal strength.",
+ "price": 1125,
+ "category": "Power",
+"company": "Lunar Alchemy", 
+ "description": "A spell of dominance and control, designed to grant mastery over situations, leadership, and personal power. This enchantment harnesses the raw energy of thunderstorms, infusing you with confidence, assertiveness, and unwavering presence. Ideal for witches stepping into positions of authority, taking charge of their destiny, or commanding respect in challenging situations. Perform under a stormy sky or with a charged sigil to maximize potency. ",
+  "rating": 4.5,
+  "image": "/shop/images/products/stormcallerscommand.png"
+ 
+}, {
+
+"name":"Lover’s Knot Enchantment – A binding spell for deep romantic connection.",
+ "price": 550,
+ "category": "Love",
+"company": "Spellbound Treasures",
+ "shipping": true,
+ "featured": true,
+ "description": "A binding spell woven with ancient magic to create enduring love, loyalty, and unbreakable devotion. This enchantment strengthens romantic connections, deepens commitment, and ensures fidelity between partners. Crafted with red silk, enchanted knots, and sacred love herbs, it seals the bond between two souls. Ideal for long-term relationships, rekindling passion, or securing a destined love. Perform under a waxing or full moon, whispering your partner’s name as you weave the magic into the fabric of your fate. When tied with pure intent, this spell weaves a connection that even time cannot sever.",
+  "rating": 5,
+  "image": "/shop/images/products/loversknotenchantment.png"
+  
+ 
+}]
