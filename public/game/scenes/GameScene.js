@@ -18,6 +18,11 @@ export default class GameScene extends Phaser.Scene{
   }
 
   preload() {
+    const loadingText= this.add.text(this.scale.width / 2, this.scale.height / 2, 'Loading...', {
+      fontSize: '40px',
+      fill: 'gold'
+    }).setOrigin(0.5)
+
     this.load.image('table-bg', 'assets/wood-bg.jpg')
     this.load.image('black-cauldron-2', 'assets/black-cauldron-2.png')
     this.load.image('spoon', 'assets/woodenspoon.PNG')
@@ -68,7 +73,7 @@ export default class GameScene extends Phaser.Scene{
     this.load.image('bay-leaf-ingredient', 'assets/money-assets/bayleaves.PNG')
     this.load.image('cinnamon-stick-ingredient', 'assets/money-assets/cinnamon-stick.PNG')
     this.load.image('moon-water-jar', 'assets/moonwaterjar.PNG')
-    this.load.image('moon-drop-ingredient', 'assets/moon-drop.png')
+    this.load.image('moon-drop-ingredient', 'assets/moon-drop.PNG')
     this.load.image('moon-water-ingredient-1', 'assets/moon-water-cauldron-1.png')
     this.load.image('green-potion', 'assets/money-assets/green-potion.PNG')
     this.load.image('green-drop', 'assets/money-assets/green-drop.png')
@@ -92,7 +97,7 @@ export default class GameScene extends Phaser.Scene{
     this.load.image('rosemary-ingredient', 'assets/protection-assets/rosemary-ingredient.PNG')
     this.load.image('cloves-ingredient', 'assets/protection-assets/cloves-ingredient.PNG')
     this.load.image('moon-water-jar', 'assets/moonwaterjar.PNG')
-    this.load.image('moon-drop-ingredient', 'assets/moon-drop.png')
+    this.load.image('moon-drop-ingredient', 'assets/moon-drop.PNG')
     this.load.image('moon-water-ingredient-1', 'assets/moon-water-cauldron-1.png')
     this.load.image('white-potion', 'assets/protection-assets/white-potion.PNG')
     this.load.image('white-drop', 'assets/protection-assets/white-drop.PNG')
@@ -131,6 +136,10 @@ export default class GameScene extends Phaser.Scene{
     })
 
   }
+
+  this.load.on('complete', () => {
+      loadingText.destroy()
+    })
 
   }
 

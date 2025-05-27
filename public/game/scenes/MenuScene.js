@@ -6,6 +6,12 @@ export default class MenuScene extends Phaser.Scene{
   }
 
   preload() {
+
+    const loadingText= this.add.text(this.scale.width / 2, this.scale.height / 2, 'Loading...', {
+      fontSize: '40px',
+      fill: 'gold'
+    }).setOrigin(0.5)
+
     this.load.image('forest-bg', 'assets/forest-background.jpg')
     this.load.image('heading-banner', 'assets/choose-spell.PNG')
     this.load.image('love-jar', 'assets/love-jar2.PNG')
@@ -21,7 +27,9 @@ export default class MenuScene extends Phaser.Scene{
     this.load.image('blue-bubble', 'assets/bluebubble.PNG')
     this.load.image('back-btn', 'assets/backbutton.PNG')
 
- 
+   this.load.on('complete', () => {
+      loadingText.destroy()
+    })
   }
 
   create() {

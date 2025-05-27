@@ -6,6 +6,10 @@ export default class StartScene extends Phaser.Scene{
   }
 
   preload() {
+    const loadingText= this.add.text(this.scale.width / 2, this.scale.height / 2, 'Loading...', {
+      fontSize: '40px',
+      fill: 'gold'
+    }).setOrigin(0.5)
 
       this.load.image('black-cauldron', 'assets/black-cauldron0.png')
       this.load.image('purple-smoke-1', 'assets/purple-smoke-1.png')
@@ -26,7 +30,9 @@ export default class StartScene extends Phaser.Scene{
       this.load.image('flying-witch', 'assets/flying-witch.PNG')
       this.load.image('back-btn', 'assets/backbutton.PNG')
 
-      
+      this.load.on('complete', () => {
+      loadingText.destroy()
+    })
   }
 
   create() {

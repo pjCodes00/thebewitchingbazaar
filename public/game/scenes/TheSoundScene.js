@@ -4,6 +4,11 @@ export default class TheSoundScene extends Phaser.Scene{
   }
 
   preload() {
+    const loadingText= this.add.text(this.scale.width / 2, this.scale.height / 2, 'Loading...', {
+      fontSize: '40px',
+      fill: 'gold'
+    }).setOrigin(0.5)
+
     this.load.audio('bg-music1', 'assets/music/willow-instrumental.mp3')
     this.load.audio('bg-music2', 'assets/music/river-music.wav')
     this.load.audio('hover-sound1', 'assets/music/fairy-sound.wav')
@@ -18,6 +23,10 @@ export default class TheSoundScene extends Phaser.Scene{
     this.load.audio('video-games', 'assets/music/video-games.mp3')
     this.load.audio('moon-water', 'assets/music/waterdrop.wav')
     this.load.audio('spell-cast', 'assets/music/spellcast.wav')
+
+    this.load.on('complete', () => {
+      loadingText.destroy()
+    })
   }
 
   create () { 

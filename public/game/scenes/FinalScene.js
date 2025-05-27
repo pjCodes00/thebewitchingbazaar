@@ -10,6 +10,11 @@ export default class FinalScene extends Phaser.Scene{
   }
 
   preload() {
+    const loadingText= this.add.text(this.scale.width / 2, this.scale.height / 2, 'Loading...', {
+      fontSize: '40px',
+      fill: 'gold'
+    }).setOrigin(0.5)
+
     this.load.image('golden-bg', 'assets/golden-bg.jpg')
     this.load.image('back-btn', 'assets/backbutton.PNG')
     this.load.image('options-btn', 'assets/optionsbutton.PNG')
@@ -38,7 +43,9 @@ export default class FinalScene extends Phaser.Scene{
       this.load.image('hex-spell-casted', 'assets/hex-assets/hex-spell-casted.PNG')
     }    
 
-    
+    this.load.on('complete', () => {
+      loadingText.destroy()
+    })
   }
 
   create() {
