@@ -6,7 +6,7 @@ export default class StartScene extends Phaser.Scene{
   }
 
   preload() {
-    const loadingText= this.add.text(this.scale.width / 2, this.scale.height / 2, 'Loading...', {
+    const loadingText= this.add.text(this.scale.width / 2, this.scale.height / 2, 'Loading... Please wait for a few minutes.', {
       fontSize: '40px',
       fill: 'gold'
     }).setOrigin(0.5)
@@ -61,7 +61,11 @@ export default class StartScene extends Phaser.Scene{
 
   const soundScene= this.scene.get('TheSoundScene')
   this.bgMusicWillow= soundScene.bgMusicWillow
+  this.bgMusicRiver= soundScene.bgMusicRiver
 
+   if(this.bgMusicRiver.isPlaying) {
+    this.bgMusicRiver.stop()
+   }
   
    const speaker= this.add.image(10, 10, 'speaker').setOrigin(0, 0).setScale(0.06).setInteractive({useHandCursor: true})
 

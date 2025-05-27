@@ -7,7 +7,7 @@ export default class MenuScene extends Phaser.Scene{
 
   preload() {
 
-    const loadingText= this.add.text(this.scale.width / 2, this.scale.height / 2, 'Loading...', {
+    const loadingText= this.add.text(this.scale.width / 2, this.scale.height / 2, 'Loading... Please wait for a few minutes.', {
       fontSize: '40px',
       fill: 'gold'
     }).setOrigin(0.5)

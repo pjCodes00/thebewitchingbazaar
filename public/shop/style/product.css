@@ -360,32 +360,39 @@
 
       .red{
         background-color: red;
+        cursor: pointer;
       }
 
       
       .green{
         background-color: green;
+        cursor: pointer;
       }
 
       
       .purple{
         background-color: rgb(162, 0, 255);
+        cursor: pointer;
       }
 
       .blue{
         background-color: blue;
+        cursor: pointer;
       }
 
       .gold{
         background-color: gold;
+        cursor: pointer;
       }
 
       .silver{
         background-color: silver;
+        cursor: pointer;
       }
 
       .color-input:checked{
         outline: 2px solid black;
+        cursor: pointer;
       }
 
       .quantity-grid{
@@ -429,9 +436,11 @@
 
       .error-container{
         position: absolute;
-        top: 152%;
-        right: 26%;
+        top: 155%;
+        right: 22%;
        background-color: rgb(57, 1, 57);
+       border: 2px solid rgb(244, 165, 244);
+       box-shadow: 2px solid rgb(231, 156, 231);
         width: 300px;
         height: 90px;
         display: flex;

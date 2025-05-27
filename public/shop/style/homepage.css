@@ -159,9 +159,10 @@
         margin-left: 25px;
         display:flex;
         align-items: center;
-        width: 550px;
+        width: 300px;
         height: 50px;
         font-family: Mystery Quest;
+        gap: 10px;
       }
 
       .witch-hat{
