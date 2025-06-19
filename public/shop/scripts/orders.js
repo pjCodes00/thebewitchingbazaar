@@ -26,6 +26,9 @@
     })
 
     async function renderOrders() {
+      try{
+
+      
       const response= await fetch('/api/v1/orders', {
         headers:{
           'Authorization': `Bearer ${token}`
@@ -135,6 +138,9 @@
           })
         })
       
+        } catch(error) {
+          console.log(error)
+        }
     }
   
     renderOrders()
@@ -190,6 +196,7 @@
     }
 
    async function cartQuantityHtml() {
+    try{
        
        const response=  await fetch('/api/v1/cart', {
        headers: {
@@ -211,6 +218,9 @@
 
        document.querySelector('.cart-quantity').innerHTML= cartQuantityHtml
        
+       } catch(error) {
+        console.log(error)
+       }
      }
      cartQuantityHtml()
 

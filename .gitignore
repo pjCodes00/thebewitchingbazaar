@@ -1,3 +1,5 @@
 /node_modules
 .env
 /public/shop/videos/thewitchyshop.mp4
+/controllers/guest.js
+/routes/guest.js

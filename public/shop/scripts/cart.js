@@ -21,6 +21,9 @@
     })
 
       async function renderCart() {
+        try{
+
+       
        const response=  await fetch('/api/v1/cart', {
         headers: {
           'Authorization': `Bearer ${token}`
@@ -92,17 +95,21 @@
         renderPayment(cart)
         updateAmount()
 
-
+       } catch(error) {
+        console.log(error)
+       }
       }
 
       renderCart()
 
        function updateAmount() {
+        try{
+        
         const newAmountSelect= document.querySelectorAll('.new-amount')
        
         newAmountSelect.forEach((selectOption) => {
           selectOption.addEventListener('change', async() => {
-            const newAmount= selectOption.value //e.target.value
+            const newAmount= selectOption.value 
             const cartItemId= selectOption.dataset.cartItemId
 
             
@@ -125,6 +132,10 @@
         renderCart()
           })
         })
+
+        } catch(error) {
+          console.log(error)
+        }
       }
      
 
@@ -140,6 +151,7 @@
       }
 
       function removeItem() {
+        try{
         const removeItemBtn= document.querySelectorAll('.remove')
         removeItemBtn.forEach((btn) => {
           btn.addEventListener('click', async() => {
@@ -160,11 +172,17 @@
 
           })
         })
+
+          } catch(error) {
+            console.log(error)
+          }
       }
      
 
    async function cartQuantityHtml() {
-      
+      try{
+
+     
     const response = await fetch('/api/v1/cart', {
       headers: {
         'Authorization': `Bearer ${token}`
@@ -183,7 +201,9 @@
 
       document.querySelector('.cart-quantity').innerHTML= cartQuantityHtml
 
-     
+      } catch(error) {
+        console.log(error)
+      }
       
      }
 

@@ -32,15 +32,18 @@
   let colorCont;
 
       async function renderProduct() {
+         try{
+
+        
 
         const url= new URL(window.location.href)
         const productId= url.searchParams.get('productId')
 
-        const response= await fetch(`/api/v1/products/${productId}`, {
+        const response= await fetch(`/api/v1/products/${productId}` /*, {
           headers: {
             'Authorization': `Bearer ${token}` 
           }
-        })
+        }*/)
 
         const data= await response.json()
         console.log(data)
@@ -139,7 +142,9 @@
 
       })
         
-
+      } catch(error) {
+        console.log(error)
+      }
         
       }
 
@@ -245,10 +250,11 @@
 
       
      async function cartQuantityHtml() {
-      if(!token) return;
+      try{
 
       
-       
+      if(!token) return;
+ 
         const response=  await fetch('/api/v1/cart', {
         headers: {
           'Authorization': `Bearer ${token}`
@@ -269,7 +275,9 @@
         document.querySelector('.cart-quantity').innerHTML= cartQuantityHtml
 
         
-
+      } catch(error) {
+        console.log(error)
+      }
         
       }
       cartQuantityHtml()

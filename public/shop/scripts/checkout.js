@@ -32,6 +32,9 @@ let cartItemIds=[]
 console.log(cartItemIds)
 
 async function renderPayment() {
+  try{
+
+  
       let subtotal= 0
       let shippingCost= 0
 
@@ -82,6 +85,9 @@ async function renderPayment() {
 
       cartQuantityHtml(cart)
       
+      } catch(error) {
+        console.log(error)
+      }
      }
 
      renderPayment()
@@ -90,8 +96,6 @@ async function renderPayment() {
      async function sendOrders() {
 
       try{
-
-    
 
       const name= nameInput.value 
       const address= addressInput.value

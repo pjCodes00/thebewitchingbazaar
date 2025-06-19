@@ -79,11 +79,11 @@
 
       ].filter(Boolean).join('&')
 
-      const response= await fetch(`/api/v1/products?${query}`, {
+      const response= await fetch(`/api/v1/products?${query}`/*, {
            headers:{
             'Authorization': `Bearer ${token}`
            }
-        })
+        }*/)
 
         if(response.status === 429) {
            document.querySelector('.grid-container').innerHTML= `
@@ -226,7 +226,7 @@
 
 
       async function cartQuantityHtml() {
-       
+        try{  
        const response=  await fetch('/api/v1/cart', {
        headers: {
          'Authorization': `Bearer ${token}`
@@ -247,6 +247,9 @@
 
        document.querySelector('.cart-quantity').innerHTML= cartQuantityHtml
        
+        } catch(error) {
+          console.log(error)
+        }
      }
      cartQuantityHtml()
      

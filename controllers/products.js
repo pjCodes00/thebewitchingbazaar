@@ -34,9 +34,6 @@ const getAllProducts= async(req, res) => {
     queryObject.price = { $lte: Number(price)}
   }
 
- /* if(req.user && req.user.userId) {
-    queryObject.user= req.user.userId
-  }*/
 
   let result= Product.find(queryObject)
 

@@ -23,7 +23,7 @@ const cartSchema= new mongoose.Schema({
 
   color:{
     type: String,
-   // default: [0]
+   
     
   },
 
@@ -31,27 +31,7 @@ const cartSchema= new mongoose.Schema({
     type: Number,
     required: true
   },
-/*
-  name:{
-    type: String,
-    required: true
-  },
 
-  image: {
-    type: String,
-    required: true
-  },
-
-  price:{
-    type: Number,
-    required: true
-  },
-
-  shipping:{
-    type: Boolean,
-   // required: true
-  }
-   */
 })
 
 module.exports= mongoose.model('Cart', cartSchema)

@@ -5,7 +5,6 @@ const {StatusCodes}= require('http-status-codes')
 const {BadRequestError, UnauthenticatedError}= require('../errors')
 
 const guestLogin= async(req, res) => {
- // res.send('login as guest')
 
  const guestName= `guest_${Date.now()}`
 

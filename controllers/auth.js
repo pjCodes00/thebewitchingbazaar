@@ -6,7 +6,7 @@ const {StatusCodes}= require('http-status-codes')
 const {BadRequestError, UnauthenticatedError}= require('../errors')
 
 const registerUser= async(req, res) => {
- // res.send('register user')
+
  const {name, email, password}= req.body
  if(!name || !email || !password){
   throw new BadRequestError('Please provide name, email, password')
@@ -40,7 +40,7 @@ const registerUser= async(req, res) => {
 }
 
 const loginUser= async(req, res) => {
- // res.send('login user')
+ 
  const {email, password}= req.body
  if(!email || !password){
   throw new BadRequestError('Please provide email and password')
@@ -71,7 +71,6 @@ const loginUser= async(req, res) => {
 
 
 const guestLogin= async(req, res) => {
- // res.send('login as guest')
 
  const guestName= `guest_${Date.now()}`
 

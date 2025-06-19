@@ -4,7 +4,6 @@ const {BadRequestError, NotFoundError}= require('../errors')
 const Product = require('../models/Product')
 
 const createCartItem= async (req, res) => {
-  //res.send('create a cart')
   
   const {amount, color, productId} = req.body
 
@@ -53,7 +52,7 @@ const createCartItem= async (req, res) => {
 }
  
 const getAllCartItems= async (req, res) => {
- // res.send('get all carts')
+
  const filter= req.user.isGuest 
         ? {guest: req.user.userId}
         : {user: req.user.userId}
@@ -63,7 +62,7 @@ const getAllCartItems= async (req, res) => {
 }
 
 const updateCartItem= async (req,res) => {
-  //res.send('update cart item amount')
+  
   const{amount}= req.body
 
   const filter= req.user.isGuest 
@@ -81,8 +80,7 @@ const updateCartItem= async (req,res) => {
 }
 
 const deleteCartItem= async(req, res) => {
-  //res.send('delete cart item')
-
+  
   const filter= req.user.isGuest 
         ? {guest: req.user.userId}
         : {user: req.user.userId}
